@@ -23,5 +23,5 @@ git clone https://github.com/Manuel18j/blog_1.git
 cd blog_1
 
 desarrollado por
-
+@hortegon
 Manuel Osorio 1115JT
