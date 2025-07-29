@@ -1,0 +1,121 @@
+2025-07-15 15:53:58,095 INFO: Microblog startup [in C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\__init__.py:43]
+2025-07-15 15:54:00,089 ERROR: Exception on / [GET] [in C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\login_manager.py", line 187, in unauthorized
+    flash(self.login_message, category=self.login_message_category)
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\helpers.py", line 323, in flash
+    session["_flashes"] = flashes
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\sessions.py", line 102, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2025-07-15 15:54:03,844 ERROR: Exception on / [GET] [in C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\login_manager.py", line 187, in unauthorized
+    flash(self.login_message, category=self.login_message_category)
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\helpers.py", line 323, in flash
+    session["_flashes"] = flashes
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\sessions.py", line 102, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2025-07-15 15:54:07,894 ERROR: Exception on /user/hol [GET] [in C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 285, in decorated_view
+    return current_app.login_manager.unauthorized()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\login_manager.py", line 187, in unauthorized
+    flash(self.login_message, category=self.login_message_category)
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\helpers.py", line 323, in flash
+    session["_flashes"] = flashes
+    ~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\sessions.py", line 102, in _fail
+    raise RuntimeError(
+RuntimeError: The session is unavailable because no secret key was set.  Set the secret_key on the application to something unique and secret.
+2025-07-15 15:55:09,119 INFO: Microblog startup [in C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\__init__.py:43]
+2025-07-15 15:55:16,844 ERROR: Exception on / [GET] [in C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py:838]
+Traceback (most recent call last):
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask_login\utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\routes.py", line 32, in index
+    return render_template('index.html', title='Home', posts=posts)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\flask\templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 1304, in render
+    self.environment.handle_exception()
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\templates\index.html", line 4, in block 'content'
+    <h1>Hi, {{ user.username }}!</h1>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PROGRAMADOR\AppData\Local\Programs\Python\Python312\Lib\site-packages\jinja2\environment.py", line 487, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'user' is undefined
+2025-07-15 15:56:50,330 INFO: Microblog startup [in C:\Users\PROGRAMADOR\documentos\blog\blog_1\app\__init__.py:43]
+2025-07-17 15:05:13,468 INFO: Microblog startup [in C:\Users\ESTUDIANTE\Desktop\blogporquenohagonada\blog_1\app\__init__.py:43]
